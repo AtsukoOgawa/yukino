@@ -37,7 +37,6 @@ header {
     font-family: 'Noto Sans Japanese', sans-serif;
     padding-left: 10;
     padding-right: 10;
-    width: 600px;
     margin: 0 auto 10 auto;
 }
 
@@ -155,7 +154,6 @@ footer ul li {
  padding: 10 10 10 10 ;   
 }
 
-/* ケーキメニュー */
 /* サムネイル化 */
 .cakeImg {
     width: 100px;
@@ -189,5 +187,9 @@ div.menuTdText {
 
 #drinkTable p{
     font-size: 12px;
-   
+    
+margin-left: -20px;
+}
+div.comment p{
+    
 }
