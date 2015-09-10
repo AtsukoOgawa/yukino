@@ -17,6 +17,9 @@
         height: 100px;
     }
    
+    #header_slide{
+     display: none;
+    }
     
     #headerDiv {
         width: 600px;

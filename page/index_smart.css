@@ -60,8 +60,11 @@ body.open{
     /*スマホメニューここまで*/
     
     header {
+        position: fixed;
         background: black;
-        height: 100px;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
     }
     #headerDiv {
        display: none;
@@ -81,9 +84,10 @@ body.open{
         font-family: 'Candal', sans-serif;
     }
     #main {
-        margin: 40 10 40 0;
+        margin: 80 10 40 10;
         float: none;
-        width: 100%;
+        width: 97%;
+        
     }
     #main p {
         color: black;
