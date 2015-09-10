@@ -96,7 +96,6 @@ header {
     font-size: 10;
 }
 
-
 footer {
     background: black;
     height: 200
@@ -138,89 +137,12 @@ footer ul li {
     padding: 3px 0px 5px 25px;
 }
 
-
-#map{
-    width: 600px;
-    margin: 0 auto;
+#pageImg{
+ margin: 0 auto;   
 }
 
-#mapFrame{
-    width: 600;
-    height: 300;
+#pageImg img{
+ width: 600px; 
+     padding-left: 50;
 }
 
-#hinmoku ul {
-    margin-left: 40px;
-}
-
-
-#hinmoku ul ul {
-    margin-left: -20px;
-margin-bottom: 20px;
-}
-/* サムネイル化 */
-.drinkImg {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* 画像の位置 */
-
-.drinkImg1 {
-    width: 200px;
-    position: absolute;
-    z-index: 100;
-    top: -20px;
-    left: -40px;
-}
-
-/* サムネイル化以上 */
-#drinkTable{
- margin-left: 50px;   
-}
-
-#drinkTable td{
- padding: 10 10 10 10 ;   
-}
-
-/* サムネイル化 */
-.cakeImg {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* 画像の位置 */
-
-.cakeImg1 {
-    width: 200px;
-    position: absolute;
-    z-index: 100;
-    top: 0px;
-    left: -30px;
-}
-
-/* サムネイル化以上 */
-#cakeTable{
- margin-left: 50px;   
-}
-
-#cakeTable td{
- padding: 10 10 10 10 ;   
-}
-
-div.menuTdText {
- width: 150px;
-}
-
-#drinkTable p{
-    font-size: 12px;
-   
-}
-div.menuTdText a {
-    font-size: 12px;
-    font-family: 'Noto Sans Japanese', sans-serif;
-}
