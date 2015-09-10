@@ -1,5 +1,4 @@
     @media screen and (min-width: 769px) {
-         
         header {
             background: black;
             height: 100px;
@@ -20,10 +19,13 @@
             padding-top: 20;
             margin: 18 5
         }
-      
+         #header_slide{
+     display: none;
+    }
         #main div {
             font-family: 'Candal', sans-serif;
         }
+        
         #main {
             margin: 40 auto;
             float: none;
@@ -35,6 +37,7 @@
             padding-left: 10;
             padding-right: 10;
             margin: 0 auto 10 auto;
+            width: 600;
         }
         #main h1 {
             font-family: 'Candal', sans-serif;
@@ -125,8 +128,8 @@
             width: 200px;
             position: absolute;
             z-index: 0;
-            top: 10px;
-            left: 0px;
+            top: -30px;
+            left: -50px;
         }
         /* サムネイル化以上 */
         #drinkTable {
@@ -135,28 +138,8 @@
         #drinkTable td {
             padding: 10 10 10 10;
         }
-        /* サムネイル化 */
-        .cakeImg {
-            width: 100px;
-            height: 100px;
-            overflow: hidden;
-            position: relative;
-        }
-        /* 画像の位置 */
-        .cakeImg1 {
-            width: 200px;
-            position: absolute;
-            z-index: 0;
-            top: 0px;
-            left: -30px;
-        }
-        /* サムネイル化以上 */
-        #cakeTable {
-            margin-left: 50px;
-        }
-        #cakeTable td {
-            padding: 10 10 10 10;
-        }
+       
+       
         div.menuTdText {
             width: 150px;
         }
@@ -168,5 +151,4 @@
             font-size: 12px;
             font-family: 'Noto Sans Japanese', sans-serif;
         }
-       
     }

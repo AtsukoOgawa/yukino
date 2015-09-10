@@ -26,15 +26,12 @@ http://opensource.org/licenses/mit-license.php-->
     <!-- jQuery -->
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/slidebars.js"></script>
-    <script>
-        (function ($) {
-            $(document).ready(function () {
-                $.slidebars();
-            });
-            SS
-        })(jQuery);
+    <script src="callSlider.js">
+       
     </script>
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js">
+    </script>
+    <script type="text/javascript" src="./common.js"></script>
 
 
     <meta name="description" content="ゆきのジュエリー ホームページ">
@@ -44,31 +41,9 @@ http://opensource.org/licenses/mit-license.php-->
 <body class="drawer drawer-right">
 
     <header>
-
-        <div id="header_slide" class="sb-slide">
-            <p class="sb-toggle-left">
-                Menu
-            </p>
-
-        </div>
-
-        <div id="headerDiv">
-            <a href="index.html">
-                <div>HOME</div>
-            </a>
-            <a href="shop.html">
-                <div>SHOP</div>
-            </a>
-            <a href="accessory.html">
-                <div>ACCESSORY</div>
-            </a>
-            <a href="order.html">
-                <div>ORDER</div>
-            </a>
-        </div>
-
-
-
+        <script type="text/javascript">
+            writeHeader();
+        </script>
     </header>
 
 
@@ -174,24 +149,9 @@ http://opensource.org/licenses/mit-license.php-->
         </div>
 
     </div>
-    <div class="sb-slidebar sb-left">
-
-
-        <a href="index.html">
-            <div class="slider_left">HOME</div>
-        </a>
-        <a href="shop.html">
-            <div class="slider_left">SHOP</div>
-        </a>
-        <a href="accessory.html">
-            <div class="slider_left">ACCESSORY</div>
-        </a>
-        <a href="order.html">
-            <div class="slider_left">ORDER</div>
-        </a>
-
-
-    </div>
+     <script type="text/javascript">
+            writeSlider();
+        </script>
 
 
 

@@ -11,216 +11,229 @@
 
     <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" href="index.css" media="all">
-    <link href='http://fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <meta name="description" content="ゆきのジュエリー ホームページ">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script type="text/javascript" src="./common.js"></script>
+ <!--Copyright (c) 
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php-->
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <!-- Slidebars CSS -->
+    <link rel="stylesheet" href="css/slidebars.css">
+
+    <!-- Example Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/slidebars.js"></script>
+    <script src="callSlider.js">
+       
+    </script>
+    <meta name="description" content="ゆきのジュエリー ホームページ">
     <title>ゆきのジュエリー</title>
 
-   
+
 
 </head>
 
-<body>
+<body class="drawer drawer-right">
     <header>
-        <div id="headerDiv">
-            <a href="index.html">
-                <div>HOME</div>
-            </a>
-            <a href="shop.html">
-                <div>SHOP</div>
-            </a>
-            <a href="accessory.html">
-                <div>ACCESSORY</div>
-            </a>
-            <a href="order.html">
-                <div>ORDER</div>
-            </a>
-        </div>
-        
-       
+        <header>
+            <script type="text/javascript">
+                writeHeader();
+            </script>
+        </header>
+
+
     </header>
     <div id="main">
+        <div id="sb-site" class="main_content">
+            <div id="contents_shop">
 
-        <div id="contents_shop">
+                <div>
+                    <h4>ACCESSORY</h4>
+                    <p>当ショップの代表的な作品を紹介致します。画像クリックで大きな画像、作品名クリックで商品ページを見ることができます。</p>
+                    <table id="drinkTable">
+                        <tr>
+                            <div>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img1.jpg"><img class="drinkImg1" src="img/img1.jpg" /></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/637978?ref=shop_itm-img">ガラスのバルーンピアス</a></div>
+                                </td>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img2.jpg"><img class="drinkImg1" src="img/img2.jpg" /></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/508650?ref=shop_itm-img">アメジストのピアス</a></div>
+                                </td>
 
-            <div>
-                <h4>ACCESSORY</h4>
-                <p>当ショップの代表的な作品を紹介致します。画像クリックで大きな画像、作品名クリックで商品ページを見ることができます。</p>
-                <table id="drinkTable">
-                    <tr>
+                            </div>
+
+                        </tr>
+                        <tr>
+                            <div>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img3.jpg"><img class="drinkImg1" src="img/img3.jpg" /></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/481157?ref=shop_itm-img">雪解けピアス</a></div>
+                                </td>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img5.jpg"><img class="drinkImg1" src="img/img5.jpg" /></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/252425?ref=shop_itm-img">ツイストドロップピアス</a></div>
+                                </td>
+
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img6.jpg"><img class="drinkImg1" src="img/img6.jpg" /></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/448800?ref=shop_itm-img">スノークリスタルピアス</a></div>
+                                </td>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img8.jpg"><img class="drinkImg1" src="img/img8.jpg" /></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/450652?ref=shop_itm-img">スノーナイトピアス</a></div>
+                                </td>
+
+                            </div>
+                        </tr>
+                    </table>
+                    <table id="drinkTable_smart">
+
                         <div>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img1.jpg" ><img class="drinkImg1" src="img/img1.jpg" /></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/637978?ref=shop_itm-img">ガラスのバルーンピアス</a></div>
-                            </td>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img2.jpg" ><img class="drinkImg1" src="img/img2.jpg" /></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/508650?ref=shop_itm-img">アメジストのピアス</a></div>
-                            </td>
+                            <tr>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img1.jpg"><img class="drinkImg1" src="img/img1.jpg" /></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/637978?ref=shop_itm-img">ガラスのバルーンピアス</a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img2.jpg"><img class="drinkImg1" src="img/img2.jpg" /></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/508650?ref=shop_itm-img">アメジストのピアス</a></div>
+                                </td>
+                            </tr>
 
                         </div>
 
-                    </tr>
-                    <tr>
+
                         <div>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img3.jpg"><img class="drinkImg1" src="img/img3.jpg" /></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/481157?ref=shop_itm-img">雪解けピアス</a></div>
-                            </td>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img5.jpg"><img class="drinkImg1" src="img/img5.jpg" /></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/252425?ref=shop_itm-img">ツイストドロップピアス</a></div>
-                            </td>
+
+
+                            <tr>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img3.jpg"><img class="drinkImg1" src="img/img3.jpg" /></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/481157?ref=shop_itm-img">雪解けピアス</a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img5.jpg"><img class="drinkImg1" src="img/img5.jpg" /></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/252425?ref=shop_itm-img">ツイストドロップピアス</a></div>
+                                </td>
+                            </tr>
+
 
                         </div>
-                    </tr>
-                    <tr>
+
                         <div>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img6.jpg" ><img class="drinkImg1" src="img/img6.jpg" /></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/448800?ref=shop_itm-img">スノークリスタルピアス</a></div>
-                            </td>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img8.jpg" ><img class="drinkImg1" src="img/img8.jpg" /></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/450652?ref=shop_itm-img">スノーナイトピアス</a></div>
-                            </td>
+                            <tr>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img6.jpg"><img class="drinkImg1" src="img/img6.jpg" /></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/448800?ref=shop_itm-img">スノークリスタルピアス</a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="drinkImg">
+                                        <a href="img/img8.jpg"><img class="drinkImg1" src="img/img8.jpg" /></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="menuTdText"><a href="http://www.iichi.com/listing/item/450652?ref=shop_itm-img">スノーナイトピアス</a></div>
+                                </td>
+                            </tr>
+
 
                         </div>
-                    </tr>
-                </table>
-                <table id="drinkTable_smart">
 
-                    <div>
-                        <tr>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img1.jpg" ><img class="drinkImg1" src="img/img1.jpg" /></a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/637978?ref=shop_itm-img">ガラスのバルーンピアス</a></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img2.jpg" ><img class="drinkImg1" src="img/img2.jpg" /></a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/508650?ref=shop_itm-img">アメジストのピアス</a></div>
-                            </td>
-                        </tr>
+                    </table>
 
-                    </div>
-
-
-                    <div>
-
-
-                        <tr>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img3.jpg" ><img class="drinkImg1" src="img/img3.jpg" /></a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/481157?ref=shop_itm-img">雪解けピアス</a></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img5.jpg" ><img class="drinkImg1" src="img/img5.jpg" /></a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/252425?ref=shop_itm-img">ツイストドロップピアス</a></div>
-                            </td>
-                        </tr>
-
-
-                    </div>
-
-                    <div>
-                        <tr>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img6.jpg" ><img class="drinkImg1" src="img/img6.jpg" /></a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/448800?ref=shop_itm-img">スノークリスタルピアス</a></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="drinkImg">
-                                    <a href="img/img8.jpg" ><img class="drinkImg1" src="img/img8.jpg" /></a>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="menuTdText"><a href="http://www.iichi.com/listing/item/450652?ref=shop_itm-img">スノーナイトピアス</a></div>
-                            </td>
-                        </tr>
-
-
-                    </div>
-
-                </table>
+                </div>
 
             </div>
 
+
+
+
+
+
+
+
+
+            <div id="copyright">Copyright © 2015 Yukino's Jewelry All Rights Reserved.</div>
+            <div id="Licensed">Noto Fonts, Candal (c) Google Inc. Licensed under Apache License 2.0</div>
         </div>
-
-
     </div>
-
-
-
-
-
-
-    <div id="copyright">Copyright © 2015 Yukino's Jewelry All Rights Reserved.</div>
-    <div id="Licensed">Noto Fonts, Candal (c) Google Inc. Licensed under Apache License 2.0</div>
-    </div>
+         <script type="text/javascript">
+            writeSlider();
+        </script>
     <footer>
 
         <div id="footerDiv">

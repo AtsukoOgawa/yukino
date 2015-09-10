@@ -1,3 +1,10 @@
+@media screen and (min-width: 769px) {
+    img {
+        max-width: 100%;
+        height: auto;
+        width/***/
+        : auto;
+    }
 header {
     background: black;
     height: 100px;
@@ -20,7 +27,9 @@ header {
     padding-top: 20;
     margin: 18 5
 }
-
+ #header_slide{
+     display: none;
+    }
 #main div {
     font-family: 'Candal', sans-serif;
 }
@@ -146,3 +155,4 @@ footer ul li {
      padding-left: 50;
 }
 
+}

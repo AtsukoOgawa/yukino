@@ -2,78 +2,66 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
     <link rel="stylesheet" media="all" type="text/css" href="shop.css" media="all">
     <!-- ※デフォルトのスタイル（index.css） -->
     <link rel="stylesheet" media="all" type="text/css" href="shop_smart.css" />
     <!-- ※スマートフォン用のスタイル（smart.css） -->
 
-    
+
     <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+
     <link href='http://fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type='text/css'>
-     <script src="smartmenu.js"/>
-    <meta name="description" content="ゆきのジュエリー ホームページ"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script type="text/javascript" src="./common.js"></script>
+ <!--Copyright (c) 
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php-->
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <!-- Slidebars CSS -->
+    <link rel="stylesheet" href="css/slidebars.css">
+
+    <!-- Example Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/slidebars.js"></script>
+    <script src="callSlider.js">
+       
+    </script>
+    <meta name="description" content="ゆきのジュエリー ホームページ">
+
     <title>ゆきのジュエリー</title>
 </head>
 
-<body>
-     <div class="layer"></div>
+<body class="drawer drawer-right">
+    <div class="layer"></div>
     <header>
-        <div id="headerDiv">
-            <a href="index.html">
-                <div>HOME</div>
-            </a>
-            <a href="shop.html">
-                <div>SHOP</div>
-            </a>
-            <a href="accessory.html">
-                <div>ACCESSORY</div>
-            </a>
-            <a href="order.html">
-                <div>ORDER</div>
-            </a>
-        </div>
-        <!-- スライドメニュー部分-->
-        <nav id="slide_menu">
-            <ul>
-                <li>
-                    <a href="index.html">
-                        <div>HOME</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="shop.html">
-                        <div>SHOP</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="accessory.html">
-                        <div>ACCESSORY</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="order.html">
-                        <div>ORDER</div>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!--メニューを出すボタン-->
-        <button id="button"><i class="fa fa-bars"></i> Menu</button>
+        <script type="text/javascript">
+            writeHeader();
+        </script>
     </header>
     <div id="main">
+        <div id="sb-site" class="main_content">
+            <h4>SHOP</h4>
+            <p>現在、iichiにてwebショップを開いています。こちらからご覧ください。</p>
+            <p><a href="http://www.iichi.com/shop/J9046164">ゆきのジュエリー</a></p>
+            <div id="pageImg">
+                <a href="http://www.iichi.com/shop/J9046164"><img src="img/img7.jpg"></a>
+            </div>
 
-<h4>SHOP</h4>
-        <p>現在、iichiにてwebショップを開いています。こちらからご覧ください。</p>
-        <p><a href="http://www.iichi.com/shop/J9046164">ゆきのジュエリー</a></p>
-        <div id="pageImg"><a href="http://www.iichi.com/shop/J9046164"><img src="img/img7.jpg"></a></div>
 
+            <div id="copyright">Copyright © 2015 Yukino's Jewelry All Rights Reserved.</div>
+            <div id="Licensed">Noto Fonts, Candal (c) Google Inc. Licensed under Apache License 2.0</div>
 
-       <div id="copyright">Copyright © 2015 Yukino's Jewelry All Rights Reserved.</div>
-         <div id="Licensed">Noto Fonts, Candal (c) Google Inc. Licensed under Apache License 2.0</div>
-
+        </div>
     </div>
+    <script type="text/javascript">
+        writeSlider();
+    </script>
     <footer>
 
         <div id="footerDiv">

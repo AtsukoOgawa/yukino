@@ -2,22 +2,14 @@
     img {
         max-width: 100%;
         height: auto;
-        width : auto;
+        width: auto;
     }
-
-    #headerDiv {
-        display: none;
-    }
-    /*スマホメニューここまで*/
     header {
         background: black;
         height: 55px;
-        margin-bottom: 40;
     }
     #headerDiv {
-        width: 600px;
-        height: 100px;
-        margin: 12 auto;
+     display: none;
     }
     #headerDiv div {
         font-family: 'Candal', sans-serif;
@@ -30,20 +22,22 @@
         padding-top: 20;
         margin: 18 5
     }
+   
     #main div {
         font-family: 'Candal', sans-serif;
     }
     #main {
+        margin: 40 auto;
         float: none;
-        width: 100%;
+        width: 700px;
     }
     #main p {
         color: black;
         font-family: 'Noto Sans Japanese', sans-serif;
         padding-left: 10;
         padding-right: 10;
+        width: 600px;
         margin: 0 auto 10 auto;
-        width: 95%;
     }
     #main h1 {
         font-family: 'Candal', sans-serif;
@@ -68,15 +62,23 @@
         border-bottom: 1px black solid;
         padding-left: 3;
         padding-bottom: 2;
-        width: 95%;
+        width: 600px;
         margin: 0 auto;
     }
+    #cafeName {
+        width: 600px;
+        margin-left: 50px;
+        margin-bottom: 20;
+        font-size: 40px;
+    }
+    #topImg {
+        width: 700px;
+    }
     #copyright {
-        font-family: 'Candal', sans-serif;
         text-align: center;
         padding-top: 25px;
+        padding-bottom: 10px;
         font-size: 10;
-        margin: 0 0 0 0;
     }
     #Licensed {
         font-family: 'Candal', sans-serif;
@@ -87,10 +89,10 @@
     }
     footer {
         background: black;
-        height: 200;
+        height: 200
     }
     #footerDiv {
-        width: 100%;
+        width: 700px;
         height: 155px;
         padding-left: 130px;
         padding-top: 35px;
@@ -119,64 +121,11 @@
         font-family: 'Noto Sans Japanese', sans-serif;
         padding: 3px 0px 5px 25px;
     }
-    /* サムネイル化 */
-    div.drinkImg {
-        width: 100px;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-        left: 15%;
-    }
-    /* 画像の位置 */
-    .drinkImg1 {
-        width: 200px;
-        position: absolute;
-        z-index: 0;
-        top: 20%;
-        left: 0%;
-    }
-    /* サムネイル化以上 */
-    #drinkTable {
-        display: none;
-    }
-    #drinkTable_smart td {
-        padding: 10 10 10 10;
-    }
-    #drinkTable_smart {
+    #pageImg {
         margin: 0 auto;
     }
-    /* サムネイル化 */
-    .cakeImg {
-        width: 100px;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-    }
-    /* 画像の位置 */
-    .cakeImg1 {
-        width: 200px;
-        position: absolute;
-        z-index: 0;
-        top: 0px;
-        left: -30px;
-    }
-    /* サムネイル化以上 */
-    #cakeTable {
-        margin-left: 50px;
-    }
-    #cakeTable td {
-        padding: 10 10 10 10;
-    }
-    div.menuTdText {
-        width: 150px;
-        text-align: center;
-    }
-    #drinkTable_smart p {
-        font-size: 12px;
-        margin-left: -20px;
-    }
-    div.menuTdText a {
-        font-size: 12px;
-        font-family: 'Noto Sans Japanese', sans-serif;
+    #pageImg img {
+        width: 600px;
+        padding-left: 50;
     }
 }
