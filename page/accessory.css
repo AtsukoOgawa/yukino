@@ -1,9 +1,5 @@
     @media screen and (min-width: 769px) {
-           img {
-        max-width: 100%;
-        height: auto;
-        width : auto;
-    }
+         
         header {
             background: black;
             height: 100px;
@@ -24,12 +20,7 @@
             padding-top: 20;
             margin: 18 5
         }
-        #slide_menu {
-            display: none;
-        }
-        #button {
-            display: none;
-        }
+      
         #main div {
             font-family: 'Candal', sans-serif;
         }
@@ -177,8 +168,5 @@
             font-size: 12px;
             font-family: 'Noto Sans Japanese', sans-serif;
         }
-        .group_pc {
-            max-Width: 100%;
-            max-Height: 100%;
-        }
+       
     }

@@ -16,12 +16,7 @@
         background: black;
         height: 100px;
     }
-    #slide_menu{
-     display: none;
-    }
-    #button{
-        display: none;
-    }
+   
     
     #headerDiv {
         width: 600px;
