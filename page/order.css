@@ -1,10 +1,5 @@
 @media screen and (min-width: 769px) {
-    img {
-        max-width: 100%;
-        height: auto;
-        width/***/
-        : auto;
-    }
+    
 header {
     background: black;
     height: 100px;
@@ -195,24 +190,21 @@ margin-bottom: 20px;
 }
 
 /* サムネイル化 */
-.cakeImg {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* 画像の位置 */
-
-.cakeImg1 {
-    width: 200px;
-    position: absolute;
-    z-index: 100;
-    top: 0px;
-    left: -30px;
-}
-
-/* サムネイル化以上 */
+    .drinkImg {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+    }
+    /* 画像の位置 */
+    .drinkImg1 {
+        width: 200px;
+        position: absolute;
+        z-index: 100;
+        top: -20px;
+        left: -40px;
+    }
+    /* サムネイル化以上 */
 #cakeTable{
  margin-left: 50px;   
 }

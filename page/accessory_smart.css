@@ -1,18 +1,17 @@
 @media screen and (max-width: 768px) {
-    img {
-        max-width: 100%;
-        height: auto;
-        width : auto;
-    }
+
 
     #headerDiv {
         display: none;
     }
     /*スマホメニューここまで*/
     header {
+       
+        position: fixed;
         background: black;
         height: 55px;
-        margin-bottom: 40;
+        width: 100%;
+        z-index: 9;
     }
     #headerDiv {
         width: 600px;
@@ -34,11 +33,13 @@
         font-family: 'Candal', sans-serif;
     }
     #main {
+        
+       margin: 80 10 40 10;
         float: none;
-        width: 100%;
+        width: 97%;
     }
     #main p {
-        color: black;
+        
         font-family: 'Noto Sans Japanese', sans-serif;
         padding-left: 10;
         padding-right: 10;
@@ -119,64 +120,6 @@
         font-family: 'Noto Sans Japanese', sans-serif;
         padding: 3px 0px 5px 25px;
     }
-    /* サムネイル化 */
-    div.drinkImg {
-        width: 100px;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-        left: 15%;
-    }
-    /* 画像の位置 */
-    .drinkImg1 {
-        width: 200px;
-        position: absolute;
-        z-index: 0;
-        top: 20%;
-        left: 0%;
-    }
-    /* サムネイル化以上 */
-    #drinkTable {
-        display: none;
-    }
-    #drinkTable_smart td {
-        padding: 10 10 10 10;
-    }
-    #drinkTable_smart {
-        margin: 0 auto;
-    }
-    /* サムネイル化 */
-    .cakeImg {
-        width: 100px;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
-    }
-    /* 画像の位置 */
-    .cakeImg1 {
-        width: 200px;
-        position: absolute;
-        z-index: 0;
-        top: 0px;
-        left: -30px;
-    }
-    /* サムネイル化以上 */
-    #cakeTable {
-        margin-left: 50px;
-    }
-    #cakeTable td {
-        padding: 10 10 10 10;
-    }
-    div.menuTdText {
-        width: 150px;
-        text-align: center;
-    }
-    #drinkTable_smart p {
-        font-size: 12px;
-        margin-left: -20px;
-    }
-    div.menuTdText a {
-        font-size: 12px;
-        font-family: 'Noto Sans Japanese', sans-serif;
-    }
+
+
 }

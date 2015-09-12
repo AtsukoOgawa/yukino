@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>
+
+        Responsive left &middot; Drawer &middot; A small CSS3 and jQuery plugin for app style drawer menu.
+
+    </title>
+    <link rel="stylesheet" href="../css/docs.css">
+    <!-- drawer CSS -->
+    <link rel="stylesheet" href="../drawer/drawer.css">
+</head>
+
+<body class="drawer drawer-left drawer-responsive site-base">
+    <header role="banner">
+        <div class="drawer-header">
+            <button type="button" class="drawer-toggle drawer-hamburger">
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+        </div>
+        <div class="drawer-main drawer-default">
+            <nav class=" drawer-nav" role="navigation">
+                <div class="drawer-brand">
+                    <a href="../">Drawer</a>
+                </div>
+                <ul class="drawer-menu">
+                    <li class="drawer-menu-item">
+                        <a href="https://github.com/blivesta/drawer" target="_blank">Download on GitHub</a>
+                    </li>
+                    <li class="drawer-menu-item">Demo
+                        <ul class="drawer-submenu">
+                            <li class="drawer-submenu-item"><a href="../left">Left</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="drawer-footer">
+                    <span>aaaaaaaaaaaa</span>
+                </div>
+            </nav>
+        </div>
+        <!-- /.drawer-main -->
+    </header>
+    <!-- /.site-header -->
+    <div class="drawer-overlay">
+        <main id="content" class="masthead" role="main" tabindex="-1">
+            <div class="container">
+                <p class="lead">A small CSS3 and jQuery plugin for app style drawer menu.</p>
+                <p class="center-block form-inline visible-xs" style="max-width:480px">
+                    <a class="button button-border button-lg drawer-api-toggle"><span class="oi oi-menu"></span> Open</a>
+                </p>
+            </div>
+            <!-- /.container -->
+        </main>
+        <div class="site-body">
+            <div class="site-body-inner container">
+                <div class="section">
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.site-body -->
+        <footer class="footer">
+            <div class="container"> </div>
+        </footer>
+        <!-- Vendor js -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.1/iscroll-min.js"></script>
+        <script src="//cdn.rawgit.com/ungki/bootstrap.dropdown/3.3.1/dropdown.min.js"></script>
+        <!-- drawer js -->
+        <script src="../drawer/jquery.drawer.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                $('.drawer').drawer();
+
+                $('.drawer-api-toggle').on(function () {
+                    $('.drawer').drawer("open");
+                });
+
+                $('.drawer').on('drawer.opened', function () {
+                    console.log('opened');
+                });
+
+                $('.drawer').on('drawer.closed', function () {
+                    console.log('closed');
+                });
+
+                $('.drawer-dropdown-hover').hover(function () {
+                    $('[data-toggle="dropdown"]', this).trigger('click');
+                });
+
+            });
+        </script>
+    </div>
+    <!-- /.drawer-overlay -->
+</body>
+
+</html>

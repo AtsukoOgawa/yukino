@@ -5,8 +5,12 @@
         width: auto;
     }
     header {
+       
+        position: fixed;
         background: black;
         height: 55px;
+        width: 100%;
+        z-index: 10;
     }
     #headerDiv {
      display: none;
@@ -27,16 +31,16 @@
         font-family: 'Candal', sans-serif;
     }
     #main {
-        margin: 40 auto;
+       margin: 80 10 40 10;
         float: none;
-        width: 700px;
+        width: 97%;
     }
     #main p {
         color: black;
         font-family: 'Noto Sans Japanese', sans-serif;
         padding-left: 10;
         padding-right: 10;
-        width: 600px;
+        width: 95%;
         margin: 0 auto 10 auto;
     }
     #main h1 {
@@ -62,18 +66,11 @@
         border-bottom: 1px black solid;
         padding-left: 3;
         padding-bottom: 2;
-        width: 600px;
+        width: 98%;
         margin: 0 auto;
     }
-    #cafeName {
-        width: 600px;
-        margin-left: 50px;
-        margin-bottom: 20;
-        font-size: 40px;
-    }
-    #topImg {
-        width: 700px;
-    }
+    
+   
     #copyright {
         text-align: center;
         padding-top: 25px;
@@ -125,7 +122,6 @@
         margin: 0 auto;
     }
     #pageImg img {
-        width: 600px;
-        padding-left: 50;
+        width: 98%;
     }
 }
