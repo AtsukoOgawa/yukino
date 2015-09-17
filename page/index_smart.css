@@ -12,6 +12,7 @@
     position: relative;
     left: 0;
     overflow-x: hidden;
+        margin: 0;
 }
     .layer{
     position: fixed;
@@ -25,14 +26,7 @@
 body.open{
     position: fixed;
 }
-    #slide_menu{
-    position: fixed;
-    top: 0;
-    left: -215px;
-    width: 215px;
-    height: 100%;
-    background: black;
-}
+
     
     #button{
      width: 80px;
@@ -62,9 +56,9 @@ body.open{
     header {
         position: fixed;
         background: black;
-        height: 55px;
+        height: 70px;
         width: 100%;
-        z-index: 0;
+        z-index: 1000;
     }
     #headerDiv {
        display: none;
@@ -77,36 +71,40 @@ body.open{
         width: 138px;
         height: 43;
         text-align: center;
-        padding-top: 20;
-        margin: 18 5
+        padding-top: 20px;
+        margin: 18px 5px
     }
-    #main div {
+    .main_margin{
+     height: 55px;   
+    }
+    
+    #content div {
         font-family: 'Candal', sans-serif;
     }
     #main {
-        margin: 80 10 40 10;
+        margin: 80px 10px 40px 10px;
         float: none;
         width: 97%;
         
     }
-    #main p {
+    #content p {
         color: black;
         font-family: 'Noto Sans Japanese', sans-serif;
         
         width: 98%;
-        margin: 0 auto 10 auto;
+        margin: 0px auto;
     }
-    #main h1 {
+    #content h1 {
         font-family: 'Candal', sans-serif;
         font-weight: 400;
     }
-    #main h2 {
+    #content h2 {
         background: -moz-linear-gradient(top, LightGrey, gray 50%, DimGray 51%, black);
         background: -webkit-gradient(linear, left top, left bottom, from(LightGrey), color-stop(50%, gray), color-stop(51%, DimGray), to(black));
         color: white;
         font-size: 18;
     }
-    #main h3 {
+    #content h3 {
         background: -moz-linear-gradient(top left, #ffffff, LightGrey 60%, DimGray 80%, black);
         background: -webkit-gradient(linear, left top, right bottom, from(#ffffff), color-stop(60%, LightGrey), color-stop(80%, DimGray), to(black));
         color: black;
@@ -114,19 +112,19 @@ body.open{
         border: 1px black solid;
         font-size: 18;
     }
-    #main h4 {
+    #content h4 {
         border-left: 3px black solid;
         border-bottom: 1px black solid;
-        padding-left: 3;
-        padding-bottom: 2;
-        width: 100%;
+        padding-left: 3px;
+        padding-bottom: 2px;
+        width: 98%;
         margin: 0 auto;
     }
-    #cafeName {
-        width: 100%;
-       
-        margin-bottom: 20;
+    #shopName {
+        width: 600px;
         font-size: 40px;
+        font-family: 'Candal', sans-serif;
+        margin-bottom: 20px;
     }
     #topImg {
         width: 100%;
@@ -146,7 +144,7 @@ body.open{
     }
     footer {
         background: black;
-        height: 200
+        height: 200px
     }
     #footerDiv {
         width: 100%;
